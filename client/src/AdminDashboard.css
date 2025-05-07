@@ -1,0 +1,180 @@
+.admin-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.user-form input, .email-container input, .email-container textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-user-btn, .email-container button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.error-message {
+    color: red;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image-wrapper {
+    text-align: center;
+}
+
+.image-preview {
+    width: 150px;
+    border-radius: 8px;
+}
+
+/* Styling for the table */
+.users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Table Header Styling */
+.users-table th {
+    background-color: #0e140f;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Table Data Styling */
+.users-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect for table rows */
+.users-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Styling for the Delete Button */
+.delete-btn {
+    background-color: #201110;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the Delete Button */
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+/* Message when no users are found */
+p {
+    font-size: 16px;
+    color: #888;
+    font-style: italic;
+}
+.profile-image {
+    width: 150px;  /* Adjust size as needed */
+    height: 150px; /* Ensures a square shape */
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Ensures the image fills the circle without distortion */
+    border: 3px solid #ddd; /* Optional: Adds a subtle border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a soft shadow */
+}
+
+.images-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.image-wrapper {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-wrapper:hover {
+    transform: scale(1.05);
+}
+
+.image-preview {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #28a745; /* Green border for approved files */
+}
+
+p {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.email-container {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.email-icon {
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+}
